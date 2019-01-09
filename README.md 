@@ -1,0 +1,13 @@
+# Auto Splitters for LiveSplit
+
+Supported emulators:
+
+* FCEUX 2.2.3
+* Nestopia 1.40
+
+## Installation
+
+Download *.asl
+Edit Layout
+Add Other /Scriptable Componment / Script Path: Browse to the "*.asl" file you downloaded previously
+Enable Start/Split/Reset feature here
