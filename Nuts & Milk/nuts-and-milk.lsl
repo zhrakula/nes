@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1077</X>
-  <Y>23</Y>
+  <X>1073</X>
+  <Y>15</Y>
   <VerticalWidth>286</VerticalWidth>
   <VerticalHeight>718</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -105,14 +105,14 @@
             <Version>1.5</Version>
             <Name>+/-</Name>
             <Type>SegmentDelta</Type>
-            <Comparison>Current Comparison</Comparison>
+            <Comparison>Best Segments</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
           <Settings>
             <Version>1.5</Version>
             <Name>Time</Name>
             <Type>SplitTime</Type>
-            <Comparison>Current Comparison</Comparison>
+            <Comparison>Personal Best</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
         </Columns>
@@ -157,7 +157,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>D:\nes\Nuts &amp; Milk\nuts-and-milk.asl</ScriptPath>
+        <ScriptPath>D:\nes\repo\Nuts &amp; Milk\nuts-and-milk.asl</ScriptPath>
         <Start>True</Start>
         <Reset>True</Reset>
         <Split>True</Split>
