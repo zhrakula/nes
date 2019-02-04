@@ -46,7 +46,7 @@ split
 	}
 
 	if (settings["boss_after"]) {
-		if (old.level_E != 0x1F && old.level_F != 0x1E && current.level_E == 0x1F) return true;
+		if (old.level_E != 0x1F && current.level_E == 0x1F) return true;
 	}
 
 	if (current.level_E == 0x0D && current.level_F == 0x17 && current.boss_hp <= 0 && old.boss_hp > 0 && old.boss_hp <= 2) return true;
