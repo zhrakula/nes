@@ -31,5 +31,5 @@ split
 	if (settings["dance"]) {
 		if (current.scene == 3 && old.scene != 3) return true;
 	}
-	if (current.lines100 >= 0x31 || current.lines200 >= 0x31) return true;
+	if (current.lines100 >= 0x31) return true;
 }
