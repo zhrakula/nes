@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>Tank C 1990</GameName>
+  <CategoryName>1 loop (1-12) 1p</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="True">Nintendo Entertainment System</Platform>
+    <Region>CHN / PAL</Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="12/13/2018 16:55:57" isStartedSynced="True" ended="12/13/2018 16:56:18" isEndedSynced="True" />
+    <Attempt id="2" started="12/13/2018 16:56:21" isStartedSynced="True" ended="12/13/2018 17:04:20" isEndedSynced="True">
+      <RealTime>00:07:59.7730000</RealTime>
+    </Attempt>
+    <Attempt id="3" started="12/13/2018 19:47:32" isStartedSynced="True" ended="12/13/2018 19:47:40" isEndedSynced="True" />
+    <Attempt id="4" started="12/13/2018 19:47:44" isStartedSynced="True" ended="12/13/2018 19:51:47" isEndedSynced="True" />
+    <Attempt id="5" started="12/13/2018 19:51:51" isStartedSynced="True" ended="12/13/2018 19:52:51" isEndedSynced="True" />
+    <Attempt id="6" started="12/13/2018 19:52:54" isStartedSynced="True" ended="12/13/2018 19:53:01" isEndedSynced="True" />
+    <Attempt id="7" started="12/13/2018 19:53:04" isStartedSynced="True" ended="12/13/2018 19:53:46" isEndedSynced="True" />
+    <Attempt id="8" started="12/13/2018 19:53:49" isStartedSynced="True" ended="12/13/2018 19:54:03" isEndedSynced="True" />
+    <Attempt id="9" started="12/13/2018 19:54:06" isStartedSynced="True" ended="12/13/2018 19:54:38" isEndedSynced="True" />
+    <Attempt id="10" started="12/13/2018 19:54:40" isStartedSynced="True" ended="12/13/2018 19:55:13" isEndedSynced="True" />
+    <Attempt id="11" started="12/13/2018 19:55:16" isStartedSynced="True" ended="12/13/2018 19:55:25" isEndedSynced="True" />
+    <Attempt id="12" started="12/13/2018 19:55:27" isStartedSynced="True" ended="12/13/2018 19:58:19" isEndedSynced="True" />
+    <Attempt id="13" started="12/13/2018 19:58:21" isStartedSynced="True" ended="12/13/2018 19:58:29" isEndedSynced="True" />
+    <Attempt id="14" started="12/13/2018 19:58:31" isStartedSynced="True" ended="12/13/2018 20:02:03" isEndedSynced="True" />
+    <Attempt id="15" started="12/13/2018 20:02:06" isStartedSynced="True" ended="12/13/2018 20:02:24" isEndedSynced="True" />
+    <Attempt id="16" started="12/13/2018 20:02:27" isStartedSynced="True" ended="12/13/2018 20:02:40" isEndedSynced="True" />
+    <Attempt id="17" started="12/13/2018 20:02:43" isStartedSynced="True" ended="12/13/2018 20:03:58" isEndedSynced="True" />
+    <Attempt id="18" started="12/13/2018 20:04:01" isStartedSynced="True" ended="12/13/2018 20:06:35" isEndedSynced="True" />
+    <Attempt id="19" started="12/13/2018 20:06:37" isStartedSynced="True" ended="12/13/2018 20:06:47" isEndedSynced="True" />
+    <Attempt id="20" started="12/13/2018 20:06:50" isStartedSynced="True" ended="12/13/2018 20:07:00" isEndedSynced="True" />
+    <Attempt id="21" started="12/13/2018 20:07:03" isStartedSynced="True" ended="12/13/2018 20:07:42" isEndedSynced="True" />
+    <Attempt id="22" started="12/13/2018 20:07:44" isStartedSynced="True" ended="12/13/2018 20:08:54" isEndedSynced="True" />
+    <Attempt id="23" started="12/13/2018 20:08:57" isStartedSynced="True" ended="12/13/2018 20:12:01" isEndedSynced="True" />
+    <Attempt id="24" started="12/13/2018 20:12:04" isStartedSynced="True" ended="12/13/2018 20:12:12" isEndedSynced="True" />
+    <Attempt id="25" started="12/13/2018 20:12:14" isStartedSynced="True" ended="12/13/2018 20:12:27" isEndedSynced="True" />
+    <Attempt id="26" started="12/13/2018 20:12:30" isStartedSynced="True" ended="12/13/2018 20:12:42" isEndedSynced="True" />
+    <Attempt id="27" started="12/13/2018 20:12:44" isStartedSynced="True" ended="12/13/2018 20:12:58" isEndedSynced="True" />
+    <Attempt id="28" started="12/13/2018 20:13:01" isStartedSynced="True" ended="12/13/2018 20:13:14" isEndedSynced="True" />
+    <Attempt id="29" started="12/13/2018 20:13:16" isStartedSynced="True" ended="12/13/2018 20:13:26" isEndedSynced="True" />
+    <Attempt id="30" started="12/13/2018 20:13:29" isStartedSynced="True" ended="12/13/2018 20:14:33" isEndedSynced="True" />
+    <Attempt id="31" started="12/13/2018 20:14:36" isStartedSynced="True" ended="12/13/2018 20:15:02" isEndedSynced="True" />
+    <Attempt id="32" started="12/13/2018 20:15:05" isStartedSynced="True" ended="12/13/2018 20:22:32" isEndedSynced="True">
+      <RealTime>00:07:26.9570000</RealTime>
+    </Attempt>
+    <Attempt id="33" started="12/16/2018 10:03:39" isStartedSynced="True" ended="12/16/2018 10:09:26" isEndedSynced="True" />
+    <Attempt id="34" started="12/16/2018 10:14:49" isStartedSynced="True" ended="12/16/2018 10:16:07" isEndedSynced="True" />
+    <Attempt id="35" started="01/09/2019 12:01:21" isStartedSynced="True" ended="01/09/2019 12:02:32" isEndedSynced="True" />
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>STAGE 01</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 02</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 03</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 04</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 05</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 06</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 07</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 08</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 09</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 10</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 11</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>STAGE 12</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>
