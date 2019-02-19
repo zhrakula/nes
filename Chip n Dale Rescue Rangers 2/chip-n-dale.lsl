@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>976</X>
-  <Y>26</Y>
+  <X>977</X>
+  <Y>33</Y>
   <VerticalWidth>380</VerticalWidth>
-  <VerticalHeight>398</VerticalHeight>
+  <VerticalHeight>670</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -118,7 +118,7 @@
           <Settings>
             <Version>1.5</Version>
             <Name>Time</Name>
-            <Type>SplitTime</Type>
+            <Type>SegmentTime</Type>
             <Comparison>Personal Best</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>

@@ -1,4 +1,4 @@
-
+// 00AE
 
 state("fceux")
 {
@@ -37,7 +37,6 @@ split
 		if (old.level_E == 0 && current.level_E == 0x0E) return true;
 		if (old.level_E == 0x02 && current.level_E == 0x0A) return true;
 		if (old.level_E == 0x03 && current.level_E == 0x0B) return true;
-		//if (old.level_E == 0x04 && current.level_E == 0x1F) return true;
 		if (old.level_E == 0x05 && current.level_E == 0x0D) return true;
 		if (old.level_E == 0x06 && current.level_E == 0x0C) return true;
 		if (old.level_E == 0x02 && current.level_E == 0x09) return true;
@@ -46,7 +45,7 @@ split
 	}
 
 	if (settings["boss_after"]) {
-		if (old.level_E != 0x1F && current.level_E == 0x1F) return true;
+		if (old.level_E != 0x1F && current.level_E == 0x1F && current.level_F != 0x1F) return true;
 	}
 
 	if (current.level_E == 0x0D && current.level_F == 0x17 && current.boss_hp <= 0 && old.boss_hp > 0 && old.boss_hp <= 2) return true;
