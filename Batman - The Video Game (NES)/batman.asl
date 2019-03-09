@@ -1,22 +1,31 @@
-state("fceux") 
+
+state("mesen")
 {
-	byte level:    0x3B1388, 0x0088; 
-	byte left:     0x3B1388, 0x00D7; 
+	byte level:    "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0x88;
+	byte left:     "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0xD7;
+	byte final:    "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0xA4;
+	sbyte boss_hp: "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0x5E0;
+}
+
+state("fceux")
+{
+	byte level:    0x3B1388, 0x0088;
+	byte left:     0x3B1388, 0x00D7;
 	byte final:    0x3B1388, 0x00A4;
 	sbyte boss_hp: 0x3B1388, 0x05E0;
-} 
+}
 
-state("nestopia") 
+state("nestopia")
 {
 	// base 0x0000 address of ROM : "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x68;
 	byte level:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xF0;
 	byte left:       "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x13F;
 	byte final:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x10C;
 	sbyte boss_hp:   "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x648;
-} 
+}
 
-reset 
-{	
+reset
+{
 	return(current.level == 0 && current.left == 0);
 }
 
@@ -26,6 +35,6 @@ split
 }
 
 start
-{	
+{
 	return(current.level == 0 && current.left > 0 && old.left == 0);
 }

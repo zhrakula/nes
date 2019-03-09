@@ -4,7 +4,7 @@
   <X>980</X>
   <Y>19</Y>
   <VerticalWidth>380</VerticalWidth>
-  <VerticalHeight>318</VerticalHeight>
+  <VerticalHeight>320</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -44,7 +44,7 @@
         <Version>1.7</Version>
         <ShowGameName>True</ShowGameName>
         <ShowCategoryName>True</ShowCategoryName>
-        <ShowAttemptCount>True</ShowAttemptCount>
+        <ShowAttemptCount>False</ShowAttemptCount>
         <ShowFinishedRunsCount>False</ShowFinishedRunsCount>
         <OverrideTitleFont>False</OverrideTitleFont>
         <OverrideTitleColor>False</OverrideTitleColor>

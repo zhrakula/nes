@@ -3,6 +3,7 @@
 Supported emulators:
 
 * FCEUX 2.2.3
+* Mesen 0.9.7
 * Nestopia 1.40
 
 ## Installation

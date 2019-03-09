@@ -12,7 +12,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>409</AttemptCount>
+  <AttemptCount>415</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="12/04/2018 16:58:54" isStartedSynced="True" ended="12/04/2018 16:58:54" isEndedSynced="True">
       <RealTime>00:00:00.6900000</RealTime>
@@ -437,6 +437,12 @@
     <Attempt id="399" started="02/03/2019 17:42:49" isStartedSynced="True" ended="02/03/2019 17:48:29" isEndedSynced="True" />
     <Attempt id="400" started="02/03/2019 17:48:48" isStartedSynced="True" ended="02/03/2019 17:49:42" isEndedSynced="True" />
     <Attempt id="401" started="02/03/2019 17:49:42" isStartedSynced="True" ended="02/03/2019 18:04:51" isEndedSynced="True" />
+    <Attempt id="402" started="03/06/2019 15:31:05" isStartedSynced="True" ended="03/06/2019 15:31:05" isEndedSynced="True" />
+    <Attempt id="403" started="03/06/2019 15:32:08" isStartedSynced="True" ended="03/06/2019 15:32:41" isEndedSynced="True" />
+    <Attempt id="404" started="03/06/2019 15:32:42" isStartedSynced="True" ended="03/06/2019 15:35:17" isEndedSynced="True" />
+    <Attempt id="405" started="03/06/2019 15:36:13" isStartedSynced="True" ended="03/06/2019 15:51:33" isEndedSynced="True" />
+    <Attempt id="406" started="03/06/2019 15:52:12" isStartedSynced="True" ended="03/06/2019 15:53:07" isEndedSynced="True" />
+    <Attempt id="407" started="03/06/2019 15:53:07" isStartedSynced="True" ended="03/06/2019 16:04:26" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -828,6 +834,21 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:23.2600000</RealTime>
+        </Time>
+        <Time id="403">
+          <RealTime>00:00:23.1290000</RealTime>
+        </Time>
+        <Time id="404">
+          <RealTime>00:00:22.4400000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:22.8500000</RealTime>
+        </Time>
+        <Time id="406">
+          <RealTime>00:00:22.8720000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:22.7720000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1242,6 +1263,18 @@
         <Time id="401">
           <RealTime>00:00:17.2670000</RealTime>
         </Time>
+        <Time id="404">
+          <RealTime>00:00:16.8290000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:16.4810000</RealTime>
+        </Time>
+        <Time id="406">
+          <RealTime>00:00:16.6210000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:16.6270000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1646,6 +1679,18 @@
         <Time id="401">
           <RealTime>00:00:08.2350000</RealTime>
         </Time>
+        <Time id="404">
+          <RealTime>00:00:08.4030000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:08.3770000</RealTime>
+        </Time>
+        <Time id="406">
+          <RealTime>00:00:08.3560000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:08.1960000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1957,6 +2002,15 @@
         <Time id="401">
           <RealTime>00:00:22.4780000</RealTime>
         </Time>
+        <Time id="404">
+          <RealTime>00:00:21.7390000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:22.1110000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:22.0540000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2223,6 +2277,15 @@
         <Time id="401">
           <RealTime>00:00:17.3580000</RealTime>
         </Time>
+        <Time id="404">
+          <RealTime>00:00:25.4980000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:17.1410000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:17.4530000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2462,6 +2525,15 @@
         <Time id="401">
           <RealTime>00:00:20</RealTime>
         </Time>
+        <Time id="404">
+          <RealTime>00:00:18.8730000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:18.8190000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:18.8860000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2691,6 +2763,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:18.9460000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:19.5490000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:18.9690000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2922,6 +3000,12 @@
         <Time id="401">
           <RealTime>00:00:18.6770000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:18.5620000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:18.6540000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3124,6 +3208,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:22.2970000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:24.9980000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:23.9570000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3328,6 +3418,12 @@
         <Time id="401">
           <RealTime>00:00:17.9700000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:17.9260000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:17.9370000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3510,6 +3606,12 @@
         <Time id="401">
           <RealTime>00:00:29.2000000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:34.0930000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:20.7760000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3674,6 +3776,12 @@
         <Time id="401">
           <RealTime>00:00:21.0110000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:21.9960000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:20.8290000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3835,6 +3943,12 @@
         <Time id="401">
           <RealTime>00:00:08.3780000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:09.2830000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:08.7360000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3984,6 +4098,12 @@
         <Time id="401">
           <RealTime>00:00:25.3400000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:25.6660000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:32.4480000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4100,6 +4220,12 @@
         <Time id="401">
           <RealTime>00:00:19.8760000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:25.2850000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:29.9280000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4111,7 +4237,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:20.1650000</RealTime>
+        <RealTime>00:00:20.0890000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="163">
@@ -4216,6 +4342,12 @@
         <Time id="401">
           <RealTime>00:00:20.7190000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:20.0890000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:20.5280000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4313,6 +4445,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:13.9380000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:13.8870000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:13.9680000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -4412,6 +4550,12 @@
         <Time id="401">
           <RealTime>00:00:09.7490000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:09.0200000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:12.8970000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4504,6 +4648,12 @@
         <Time id="401">
           <RealTime>00:00:20.1140000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:19.8180000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:19.7420000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4590,6 +4740,12 @@
         <Time id="401">
           <RealTime>00:00:23.1750000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:26.2100000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:28.7470000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4670,6 +4826,12 @@
         <Time id="401">
           <RealTime>00:00:20.9160000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:26.4190000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:20.4560000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4746,6 +4908,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:23.8610000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:23.6400000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:23.7220000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -4824,6 +4992,12 @@
         <Time id="401">
           <RealTime>00:00:07.9690000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:07.9450000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:08.0300000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4835,7 +5009,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:18.6270000</RealTime>
+        <RealTime>00:00:18.0930000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="163">
@@ -4900,6 +5074,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:27.6950000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:19.4340000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:18.0930000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -4978,6 +5158,12 @@
         <Time id="401">
           <RealTime>00:00:25.3340000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:24.9250000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:25.3640000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5051,6 +5237,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:21.2450000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:20.9090000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:27.5400000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -5126,6 +5318,12 @@
         <Time id="401">
           <RealTime>00:00:17.9410000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:31.5180000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:20.0090000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5196,6 +5394,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:09.7020000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:09.6480000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:09.5770000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -5271,6 +5475,12 @@
         <Time id="401">
           <RealTime>00:00:18.3710000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:18.3070000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:21.7830000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5345,6 +5555,12 @@
         <Time id="401">
           <RealTime>00:00:23.9210000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:29.6680000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:24.6290000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5356,7 +5572,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:25.6680000</RealTime>
+        <RealTime>00:00:25.5240000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="163">
@@ -5418,6 +5634,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:26.2830000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:26.4900000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:25.5240000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -5493,6 +5715,12 @@
         <Time id="401">
           <RealTime>00:00:23.8950000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:21.9990000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:21.8140000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5567,6 +5795,12 @@
         <Time id="401">
           <RealTime>00:00:08.9320000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:09.0750000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:09.0520000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5578,7 +5812,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:17.8950000</RealTime>
+        <RealTime>00:00:17.8210000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="163">
@@ -5634,6 +5868,12 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:23.1110000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:17.8210000</RealTime>
+        </Time>
+        <Time id="407">
+          <RealTime>00:00:17.9610000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -5703,6 +5943,9 @@
         <Time id="401">
           <RealTime>00:00:15.8330000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:15.7970000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5714,7 +5957,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:13.6620000</RealTime>
+        <RealTime>00:00:13.5350000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="163">
@@ -5770,6 +6013,9 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:13.6620000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:13.5350000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -5836,6 +6082,9 @@
         <Time id="401">
           <RealTime>00:00:21.2050000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:21.2300000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5898,6 +6147,9 @@
         <Time id="401">
           <RealTime>00:00:08.6490000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:08.6840000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5953,6 +6205,9 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:44.1040000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:24.4610000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -6010,6 +6265,9 @@
         <Time id="401">
           <RealTime>00:00:18.6460000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:18.5340000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -6063,6 +6321,9 @@
         <Time id="401">
           <RealTime>00:00:24.4630000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:37.1570000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -6112,6 +6373,9 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:24.4420000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:24.1750000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -6163,6 +6427,9 @@
         <Time id="401">
           <RealTime>00:00:08.8020000</RealTime>
         </Time>
+        <Time id="405">
+          <RealTime>00:00:08.7530000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -6174,7 +6441,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:21.7370000</RealTime>
+        <RealTime>00:00:19.9870000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="0">
@@ -6206,6 +6473,9 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:22.6280000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:19.9870000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -6247,6 +6517,9 @@
         </Time>
         <Time id="401">
           <RealTime>00:00:34.1850000</RealTime>
+        </Time>
+        <Time id="405">
+          <RealTime>00:00:28.2050000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>

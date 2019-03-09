@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>977</X>
-  <Y>33</Y>
+  <X>975</X>
+  <Y>26</Y>
   <VerticalWidth>380</VerticalWidth>
-  <VerticalHeight>670</VerticalHeight>
+  <VerticalHeight>671</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -55,7 +55,7 @@
         <BackgroundColor>FF2A2A2A</BackgroundColor>
         <BackgroundColor2>FF131313</BackgroundColor2>
         <BackgroundGradient>Vertical</BackgroundGradient>
-        <DisplayGameIcon>True</DisplayGameIcon>
+        <DisplayGameIcon>False</DisplayGameIcon>
         <ShowRegion>False</ShowRegion>
         <ShowPlatform>False</ShowPlatform>
         <ShowVariables>True</ShowVariables>
@@ -91,7 +91,7 @@
         <CurrentSplitGradient>Vertical</CurrentSplitGradient>
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>01FFFFFF</BackgroundColor2>
-        <BackgroundGradient>Alternating</BackgroundGradient>
+        <BackgroundGradient>Plain</BackgroundGradient>
         <SeparatorLastSplit>True</SeparatorLastSplit>
         <DeltasAccuracy>Tenths</DeltasAccuracy>
         <DropDecimals>True</DropDecimals>
@@ -144,20 +144,6 @@
       </Settings>
     </Component>
     <Component>
-      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
-      <Settings>
-        <Version>1.5</Version>
-        <ScriptPath>D:\nes\repo\Chip n Dale Rescue Rangers 2\chip-n-dale-2.asl</ScriptPath>
-        <Start>True</Start>
-        <Reset>True</Reset>
-        <Split>True</Split>
-        <CustomSettings>
-          <Setting id="boss_before" type="bool">True</Setting>
-          <Setting id="boss_after" type="bool">True</Setting>
-        </CustomSettings>
-      </Settings>
-    </Component>
-    <Component>
       <Path>LiveSplit.SumOfBest.dll</Path>
       <Settings>
         <Version>1.4</Version>
@@ -170,6 +156,20 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Display2Rows>False</Display2Rows>
+      </Settings>
+    </Component>
+    <Component>
+      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
+      <Settings>
+        <Version>1.5</Version>
+        <ScriptPath>D:\nes\repo\Chip n Dale Rescue Rangers 2\chip-n-dale-2.asl</ScriptPath>
+        <Start>True</Start>
+        <Reset>True</Reset>
+        <Split>True</Split>
+        <CustomSettings>
+          <Setting id="boss_before" type="bool">True</Setting>
+          <Setting id="boss_after" type="bool">True</Setting>
+        </CustomSettings>
       </Settings>
     </Component>
   </Components>

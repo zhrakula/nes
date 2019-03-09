@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>962</X>
-  <Y>30</Y>
+  <X>977</X>
+  <Y>32</Y>
   <VerticalWidth>380</VerticalWidth>
-  <VerticalHeight>588</VerticalHeight>
+  <VerticalHeight>450</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -154,12 +154,12 @@
         <CustomSettings>
           <Setting id="lvl1" type="bool">True</Setting>
           <Setting id="lvl2" type="bool">True</Setting>
-          <Setting id="lvl3" type="bool">True</Setting>
+          <Setting id="lvl3" type="bool">False</Setting>
           <Setting id="lvl4" type="bool">True</Setting>
           <Setting id="lvl5" type="bool">True</Setting>
-          <Setting id="lvl6" type="bool">True</Setting>
+          <Setting id="lvl6" type="bool">False</Setting>
           <Setting id="lvl7" type="bool">True</Setting>
-          <Setting id="lvl8" type="bool">True</Setting>
+          <Setting id="lvl8" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
     </Component>
