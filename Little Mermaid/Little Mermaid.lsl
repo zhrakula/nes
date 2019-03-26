@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>946</X>
-  <Y>25</Y>
+  <X>945</X>
+  <Y>86</Y>
   <VerticalWidth>416</VerticalWidth>
   <VerticalHeight>381</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -151,7 +151,9 @@
         <Start>True</Start>
         <Reset>True</Reset>
         <Split>True</Split>
-        <CustomSettings />
+        <CustomSettings>
+          <Setting id="boss_before" type="bool">True</Setting>
+        </CustomSettings>
       </Settings>
     </Component>
     <Component>
