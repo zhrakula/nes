@@ -23,7 +23,6 @@ state("fceux")
 
 state("nestopia")
 {
-    // base 0x0000 address of ROM : "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x68;
     byte left:             "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xE3;
     byte control:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x10C;
     byte location:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x101;
@@ -52,7 +51,7 @@ split
     if (current.location == 15 && current.locks == 0 && old.locks == 1) return true;
     if (current.location == 19 && current.locks == 0 && old.locks == 1) return true;
     if (current.location == 21 && current.locks == 0 && old.locks == 1) return true;
-    if (current.location == 25 && current.left == 9 && current.boss_hp <= 0 && old.boss_hp > 0) return true;
-    if (current.location == 28 && current.left == 8 && current.boss_hp <= 0 && old.boss_hp > 0) return true;
+    if (current.location == 25 && current.left == 9 && current.boss_hp <= 0 && current.control2 == 0 && old.control2 == 3) return true;
+    if (current.location == 28 && current.left == 8 && current.boss_hp <= 0 && current.control2 == 0 && old.control2 == 3) return true;
     if (current.location == 31 && current.left == 13 && current.final_boss_hp <= 0 && current.control2 == 0 && old.control2 == 3) return true;
 }
