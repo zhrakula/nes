@@ -26,7 +26,7 @@ startup
 
 reset
 {
-	return (current.level == 240);
+	return (current.level == 240 && old.level != 1 && old.level != 240);
 }
 
 split
