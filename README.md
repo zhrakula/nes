@@ -1,10 +1,11 @@
-# Auto Splitters for LiveSplit
+# Auto Splitters for nes roms
 
 Supported emulators:
 
 * FCEUX 2.2.3
-* Mesen 0.9.7
+* Mesen 0.9.8
 * Nestopia 1.40
+* puNES 0.105 (x86_64, d3d9)
 
 ## Installation
 

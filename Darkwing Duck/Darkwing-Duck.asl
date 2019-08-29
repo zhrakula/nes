@@ -1,11 +1,11 @@
 
 // https://github.com/almamay/nes
 
-state("mesen")
+state("mesen", "0.9.8.0")
 {
-	byte level:       "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0xD9;
-	byte boss_hp:     "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0xEE;
-	byte music:       "MesenCore.dll", 0x4311838, 0x118, 0xB8, 0x90, 0x1D8, 0x08, 0x410;
+	byte level:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xD9;
+	byte boss_hp:     "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xEE;
+	byte music:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x410;
 }
 
 state("fceux")
@@ -20,6 +20,13 @@ state("nestopia")
 	byte level:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x141;
 	byte boss_hp:    "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x156;
 	byte music:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x478;
+}
+
+state("punes64", "0.105") //d3d 0x142FF20
+{
+    byte level:      0x142FFF9;
+    byte boss_hp:    0x143000E;
+    byte music:      0x1430330;
 }
 
 startup
