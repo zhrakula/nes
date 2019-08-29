@@ -18,7 +18,7 @@ function printInfo()
     charge = 1
   end
 
-  if ((x_pos - 47) % 3 == 0) then
+  if (x_pos > 151 or x_pos < 102 or (x_pos - 47) % 3 == 0) then
     color = 0xFF0000
   else
     color = 0x00FF00
@@ -40,8 +40,8 @@ function printInfo()
     emu.drawRectangle(128, 210, 16, 2, 0xFF0000, true, 1)
 
     if (emu.read(0x0099, emu.memType.cpu, false) == 25 and emu.read(0x007B, emu.memType.cpu, false) == 9) then
-      emu.drawRectangle(47, 164, 162, 1, 0x00FF00, true, 1)
-      for i = 47, 208, 3 do
+      emu.drawRectangle(110, 164, 35, 1, 0x00FF00, true, 1)
+      for i = 110, 144, 3 do
          emu.drawRectangle(i, 164, 1, 1, 0xFF0000, true, 1)
       end
     end
