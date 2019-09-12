@@ -1,10 +1,10 @@
 
 state("mesen", "0.9.8.0")
 {
-    byte left:             "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x7B;
-    byte control:          "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xA4;
-    byte location:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x99;
-    byte locks:            "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x8D;
+    byte left:             "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x7A;
+    byte control:          "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xA3;
+    byte location:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x98;
+    byte locks:            "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x8C;
     byte control2:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xD6;
     sbyte boss_hp:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x5D2;
     sbyte final_boss_hp:   "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x5D3;
@@ -12,10 +12,10 @@ state("mesen", "0.9.8.0")
 
 state("fceux")
 {
-    byte left:               0x3B1388, 0x007B;
-    byte control:            0x3B1388, 0x00A4;
-    byte location:           0x3B1388, 0x0099;
-    byte locks:              0x3B1388, 0x008D;
+    byte left:               0x3B1388, 0x007A;
+    byte control:            0x3B1388, 0x00A3;
+    byte location:           0x3B1388, 0x0098;
+    byte locks:              0x3B1388, 0x008C;
     byte control2:           0x3B1388, 0x00D6;
     sbyte boss_hp:           0x3B1388, 0x05D2;
     sbyte final_boss_hp:     0x3B1388, 0x05D3;
@@ -23,10 +23,10 @@ state("fceux")
 
 state("nestopia")
 {
-    byte left:             "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xE3;
-    byte control:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x10C;
-    byte location:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x101;
-    byte locks:            "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xF5;
+    byte left:             "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xE2;
+    byte control:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x10B;
+    byte location:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x100;
+    byte locks:            "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xF4;
     byte control2:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x13E;
     sbyte boss_hp:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x63A;
     sbyte final_boss_hp:   "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x63B;
@@ -34,10 +34,10 @@ state("nestopia")
 
 state("punes64", "0.105") //d3d 0x142FF20
 {
-    byte left:             0x142FF9B;
-    byte control:          0x142FFC4;
-    byte location:         0x142FFB9;
-    byte locks:            0x142FFAD;
+    byte left:             0x142FF9A;
+    byte control:          0x142FFC3;
+    byte location:         0x142FFB8;
+    byte locks:            0x142FFAC;
     byte control2:         0x142FFF6;
     sbyte boss_hp:          0x14304F2;
     sbyte final_boss_hp:    0x14304F3;
