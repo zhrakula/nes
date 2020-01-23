@@ -10,7 +10,7 @@ state("mesen", "0.9.8.0")
 state("fceux")
 {
 	byte boss_hp:       0x003B1388, 0x00B9;
-	byte start          0x003B1388, 0x00CE;
+	byte start:         0x003B1388, 0x00CE;
 	byte stage:         0x003B1388, 0x00C8;
 	byte treasure:      0x003B1388, 0x0306;
 }
