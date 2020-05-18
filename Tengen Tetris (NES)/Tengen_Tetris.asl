@@ -31,6 +31,7 @@ state("punes64", "0.105") //d3d 0x142FF20
 startup
 {
     settings.Add("dance", true, "Split on dance");
+    settings.Add("l00", true, "Split on 100 lines");
 }
 
 start
@@ -48,6 +49,8 @@ split
     if (settings["dance"]) {
         if (current.scene == 3 && old.scene != 3) return true;
     }
-    if ((Convert.ToInt32(current.lines1) + Convert.ToInt32(current.lines2)) >= 100) return true;
+    if (settings["l00"]) {
+    	if ((Convert.ToInt32(current.lines1) + Convert.ToInt32(current.lines2)) >= 100) return true;
+    }
 
 }

@@ -1,2 +1,5 @@
 *.nes
 *.deb
+*.state*
+*.fm*
+*.fcm
