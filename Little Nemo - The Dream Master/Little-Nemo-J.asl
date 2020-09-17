@@ -10,7 +10,19 @@ state("mesen", "0.9.8.0")
     sbyte final_boss_hp:   "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x5D3;
 }
 
-state("fceux")
+state("mesen", "0.9.9.0")
+{
+    byte left:             "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x7A;
+    byte control:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xA3;
+    byte location:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x98;
+    byte locks:            "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x8C;
+    byte control2:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xD6;
+    sbyte boss_hp:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x5D2;
+    sbyte final_boss_hp:   "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x5D3;
+}
+
+
+state("fceux", "2.2.3")
 {
     byte left:               0x3B1388, 0x007A;
     byte control:            0x3B1388, 0x00A3;
@@ -21,7 +33,7 @@ state("fceux")
     sbyte final_boss_hp:     0x3B1388, 0x05D3;
 }
 
-state("nestopia")
+state("nestopia", "1.40")
 {
     byte left:             "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xE2;
     byte control:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x10B;
@@ -32,15 +44,9 @@ state("nestopia")
     sbyte final_boss_hp:   "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x63B;
 }
 
-state("punes64", "0.105") //d3d 0x142FF20
+init
 {
-    byte left:             0x142FF9A;
-    byte control:          0x142FFC3;
-    byte location:         0x142FFB8;
-    byte locks:            0x142FFAC;
-    byte control2:         0x142FFF6;
-    sbyte boss_hp:          0x14304F2;
-    sbyte final_boss_hp:    0x14304F3;
+	version = modules.First().FileVersionInfo.FileVersion;
 }
 
 reset

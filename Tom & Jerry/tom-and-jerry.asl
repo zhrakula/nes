@@ -8,7 +8,16 @@ state("mesen", "0.9.8.0")
 	byte blk:            "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x125;
 }
 
-state("fceux")
+state("mesen", "0.9.9.0")
+{
+	sbyte boss_hp:       "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x682;
+	byte start:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x2B;
+	byte screen:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x4D4;
+	byte stage:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x2D;
+	byte blk:            "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x125;
+}
+
+state("fceux", "2.2.3")
 {
 	sbyte boss_hp:      0x003B1388, 0x0682;
 	byte start:         0x003B1388, 0x002B;
@@ -25,6 +34,11 @@ state("nestopia", "1.40")
 	byte screen:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x53C;
 	byte stage:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x95;
 	byte blk:            "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x18D;
+}
+
+init
+{
+	version = modules.First().FileVersionInfo.FileVersion;
 }
 
 split

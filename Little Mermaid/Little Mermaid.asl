@@ -8,7 +8,16 @@ state("mesen", "0.9.8.0")
 	byte start:          "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x1ED;
 }
 
-state("fceux")
+state("mesen", "0.9.9.0")
+{
+	byte level:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xE9;
+	byte location:       "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x33;
+	byte lvl_cln:        "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xC9;
+	byte boss_final_hp:  "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x3FC;
+	byte start:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x1ED;
+}
+
+state("fceux", "2.2.3")
 {
 	byte level:             0x3B1388, 0x00E9;
 	byte location:          0x3B1388, 0x0033;
@@ -17,7 +26,7 @@ state("fceux")
 	byte start:             0x3B1388, 0x01ED;
 }
 
-state("nestopia")
+state("nestopia", "1.40")
 {
 	byte level:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x151;
 	byte location:       "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x9B;
@@ -26,13 +35,9 @@ state("nestopia")
 	byte start:          "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x255;
 }
 
-state("punes64", "0.105") //d3d 0x142FF20
+init
 {
-    byte level:          0x1430009;
-    byte location:       0x142FF53;
-    byte lvl_cln:        0x142FFE9;
-    byte boss_final_hp:  0x143031C;
-    byte start:          0x143010D;
+	version = modules.First().FileVersionInfo.FileVersion;
 }
 
 startup

@@ -1,13 +1,5 @@
 
-state("mesen", "0.9.8.0")
-{
-	byte boss_hp:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xB9;
-	byte start:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xCE;
-	byte stage:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xC8;
-	byte treasure:      "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x306;
-}
-
-state("fceux")
+state("fceux", "2.2.3")
 {
 	byte boss_hp:       0x003B1388, 0x00B9;
 	byte start:         0x003B1388, 0x00CE;
@@ -23,6 +15,28 @@ state("nestopia", "1.40")
 	byte stage:         "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x130;
 	byte treasure:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x36E;
 }
+
+state("mesen", "0.9.8.0")
+{
+	byte boss_hp:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xB9;
+	byte start:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xCE;
+	byte stage:         "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xC8;
+	byte treasure:      "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x306;
+}
+
+state("mesen", "0.9.9.0")
+{
+	byte boss_hp:       "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xB9;
+	byte start:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xCE;
+	byte stage:         "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xC8;
+	byte treasure:      "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x306;
+}
+
+init
+{
+	version = modules.First().FileVersionInfo.FileVersion;
+}
+
 
 split
 {

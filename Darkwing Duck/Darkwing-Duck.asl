@@ -1,6 +1,4 @@
 
-// https://github.com/almamay/nes
-
 state("mesen", "0.9.8.0")
 {
 	byte level:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xD9;
@@ -8,34 +6,39 @@ state("mesen", "0.9.8.0")
 	byte music:       "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0x410;
 }
 
-state("fceux")
+state("mesen", "0.9.9.0")
+{
+	byte level:       "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xD9;
+	byte boss_hp:     "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xEE;
+	byte music:       "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x410;
+}
+
+state("fceux", "2.2.3")
 {
 	byte level:       0x3B1388, 0x00D9;
 	byte boss_hp:     0x3B1388, 0x00EE;
 	byte music:       0x3B1388, 0x0410;
 }
 
-state("nestopia")
+state("nestopia", "1.40")
 {
 	byte level:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x141;
 	byte boss_hp:    "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x156;
 	byte music:      "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x478;
 }
 
-state("punes64", "0.105") //d3d 0x142FF20
+init
 {
-    byte level:      0x142FFF9;
-    byte boss_hp:    0x143000E;
-    byte music:      0x1430330;
+	version = modules.First().FileVersionInfo.FileVersion;
 }
 
 startup
 {
 	settings.Add("boss_before", false, "Split before boss fight");
 	settings.Add("boss_delim", false, "-- CHECK ONLY ONE OF:");
-	settings.Add("boss_die", false, "Split on boss die");
-	settings.Add("boss_music", false, "or Split on stop music");
-	settings.Add("boss_black", true, "or Split on black screen after boss");
+	settings.Add("boss_die", false, " - Split on boss die");
+	settings.Add("boss_music", false, " - Split on stop music");
+	settings.Add("boss_black", true, " - Split on black screen after boss");
 }
 
 reset

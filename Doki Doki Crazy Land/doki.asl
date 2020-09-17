@@ -8,7 +8,16 @@ state("mesen", "0.9.8.0")
 	byte control:        "MesenCore.dll", 0x4327750, 0xB8, 0x78, 0xE8;
 }
 
-state("fceux")
+state("mesen", "0.9.9.0")
+{
+	byte level:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x89;
+	byte bossHealth:     "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x583;
+	byte reset:          "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0x8A;
+	byte left:           "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xC5;
+	byte control:        "MesenCore.dll", 0x042E0F30, 0, 0x58, 0xC90, 0x58, 0xE8;
+}
+
+state("fceux", "2.2.3")
 {
 	byte level:      0x3B1388, 0x0089; 
 	byte bossHealth: 0x3B1388, 0x0583; 
@@ -17,7 +26,7 @@ state("fceux")
 	byte control:    0x3B1388, 0x00E8;
 }
 
-state("nestopia")
+state("nestopia", "1.40")
 {	
 	byte level:       "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0xF1;
 	byte bossHealth:  "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x5EB;
@@ -26,13 +35,18 @@ state("nestopia")
 	byte control:     "nestopia.exe", 0x1b2bcc, 0, 8, 0xc, 0xc, 0x150;
 }
 
+init
+{
+	version = modules.First().FileVersionInfo.FileVersion;
+}
+
 reset
 {
 	return (current.reset == 0 && current.left == 0);
 }
 
 split
-{
+{ /*
 	if (current.level == 3 && current.bossHealth <= 0 && old.bossHealth > 0) {
 		return true;
 	}
@@ -50,9 +64,13 @@ split
 	}
 	if (current.level == 24 && current.bossHealth <= 0 && old.bossHealth > 0) {
 		return true;
-	}
+	}*/
 
 	if (current.control == 4 && old.control == 0) {
+		return true;
+	}
+
+	if (current.control == 132 && old.control == 128) {
 		return true;
 	}
 

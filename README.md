@@ -2,10 +2,9 @@
 
 Supported emulators:
 
-* FCEUX 2.2.3
-* Mesen 0.9.8
+* Mesen 0.9.8, 0.9.9
 * Nestopia 1.40
-* puNES 0.105 (x86_64, d3d9)
+* FCEUX 2.2.3
 
 ## Installation
 
